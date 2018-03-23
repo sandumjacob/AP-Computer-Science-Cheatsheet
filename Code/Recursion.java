@@ -15,6 +15,7 @@ public class Recursion {
     }
 
     public static void main(String[] args) {
+        //Prints "24"
         System.out.println(factorial(4));
     }
 

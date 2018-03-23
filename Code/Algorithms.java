@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 //Static Methods that are examples of the various algorithms on the test
@@ -56,6 +57,21 @@ public class Algorithms {
                 r = m - 1;
         }
         return -1;
+    }
+
+    public static void main(String[] args) {
+        ArrayList intList = new ArrayList<Integer>();
+        intList.add(3);
+        intList.add(5);
+        intList.add(7);
+        intList.add(23);
+        //This ArrayList is sorted, so one can use binary search on it.
+
+
+        //Prints "3"
+        System.out.println(binarySearch(intList, 23));
+
+
     }
 
 }
